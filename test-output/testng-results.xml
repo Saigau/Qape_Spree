@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T17:15:24 IST" name="Default suite" finished-at="2023-06-21T17:15:27 IST" duration-ms="2793">
+  <suite started-at="2023-06-22T12:08:14 IST" name="Default suite" finished-at="2023-06-22T12:08:17 IST" duration-ms="2690">
     <groups>
     </groups>
-    <test started-at="2023-06-21T17:15:24 IST" name="Default test" finished-at="2023-06-21T17:15:27 IST" duration-ms="2793">
-      <class name="Promotion.taxRatecreation">
-        <test-method signature="tax()[pri:0, instance:Promotion.taxRatecreation@2a54a73f]" started-at="2023-06-21T17:15:25 IST" name="tax" finished-at="2023-06-21T17:15:27 IST" duration-ms="2744" status="PASS">
+    <test started-at="2023-06-22T12:08:14 IST" name="Default test" finished-at="2023-06-22T12:08:17 IST" duration-ms="2690">
+      <class name="wishlists.CreateWishlist">
+        <test-method signature="wishlist()[pri:0, instance:wishlists.CreateWishlist@2a54a73f]" started-at="2023-06-22T12:08:14 IST" name="wishlist" finished-at="2023-06-22T12:08:17 IST" duration-ms="2642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tax -->
-      </class> <!-- Promotion.taxRatecreation -->
+        </test-method> <!-- wishlist -->
+      </class> <!-- wishlists.CreateWishlist -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

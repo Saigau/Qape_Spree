@@ -1,6 +1,6 @@
 package store;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 import java.io.IOException;
 

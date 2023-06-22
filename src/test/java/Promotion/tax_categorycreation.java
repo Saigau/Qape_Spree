@@ -1,9 +1,10 @@
 package Promotion;
 
-import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 import java.io.IOException;
+
+import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

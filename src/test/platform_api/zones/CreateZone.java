@@ -1,4 +1,4 @@
-package meta_collections;
+package zones;
 
 import static io.restassured.RestAssured.given;
 
@@ -9,20 +9,23 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import utility.Propper;
+import plat_utility.Proppery;
 
-public class GetAllTheLocaleAPI {
-	
+public class CreateZone {
+
+
 	@Test
-	public void Get_local () throws IOException
+	public void zone() throws IOException
 	{
-		
-		RestAssured.baseURI= Propper.promp("Url");
+
+
+		RestAssured.baseURI=Proppery.promp("Url");
+
 		Response r = given()
 				.contentType(ContentType.JSON)
-				.header("Authorization","Bearer "+Propper.promp("access_token"))
+				.header("Authorization","Bearer "+Proppery.promp("access_token"))
 				.when()
-				.get("/api/v2/platform/locales")
+				.get("/api/v2/platform/zones")
 				.then()
 				.log().all().extract().response();
 		System.out.println(r.getStatusCode());

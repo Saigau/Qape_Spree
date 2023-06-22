@@ -1,4 +1,4 @@
-package Promotion;
+package Authorization;
 
 import static io.restassured.RestAssured.given;
 
@@ -11,9 +11,16 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import utility.Propper;
 
-public class taxRatecreation { 
+
+
+
+public class Getlistofallapplicationskeys {
+
+
+
 	@Test
-	public void tax() throws IOException {
+	public void Get_appkey() throws IOException {
+		
 		
 		{
 			
@@ -22,19 +29,15 @@ public class taxRatecreation {
 			Response r = given()
 					.contentType(ContentType.JSON)
 					.header("Authorization","Bearer "+Propper.promp("access_token"))
-					.body("{\"store_id\":\"23\",\r\n"
-							+ "  \"tax_category\": {\r\n"
-							+ "    \"name\": \"Clothing and acessories\",\r\n"
-							+ "    \"is_default\": true,\r\n"
-							+ "    \"tax_code\": \"1257L\",\r\n"
-							+ "    \"description\": \"Men's, women's and children's branded clothing\"\r\n"
-							+ "  }\r\n"
+					.body("{\r\n"
+							+ "    \"store_id\":23   \r\n"
 							+ "}")
 					.when()
-					.get("/api/v2/platform/tax_categories")
+					.get("/api/v2/apps")
 					.then()
 					.log().all().extract().response();
+	System.out.println(	r.getClass());
+		System.err.println(r.getStatusCode());
 		}
 	}
-
 }

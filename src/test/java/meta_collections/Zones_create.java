@@ -1,9 +1,11 @@
 package meta_collections;
 
+import static io.restassured.RestAssured.given;
+
 import java.io.IOException;
 
 import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

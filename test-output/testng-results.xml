@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-22T14:33:20 IST" name="Default suite" finished-at="2023-06-22T14:33:24 IST" duration-ms="4055">
+  <suite started-at="2023-06-23T17:13:07 IST" name="Default suite" finished-at="2023-06-23T17:13:11 IST" duration-ms="3682">
     <groups>
     </groups>
-    <test started-at="2023-06-22T14:33:20 IST" name="Default test" finished-at="2023-06-22T14:33:24 IST" duration-ms="4055">
-      <class name="store_credits.ReturnListOfStoreCredits">
-        <test-method signature="return_store()[pri:0, instance:store_credits.ReturnListOfStoreCredits@2a54a73f]" started-at="2023-06-22T14:33:20 IST" name="return_store" finished-at="2023-06-22T14:33:24 IST" duration-ms="3971" status="PASS">
+    <test started-at="2023-06-23T17:13:07 IST" name="Default test" finished-at="2023-06-23T17:13:11 IST" duration-ms="3682">
+      <class name="Products.EditProduct3821632270118121">
+        <test-method signature="editproduct()[pri:0, instance:Products.EditProduct3821632270118121@2a54a73f]" started-at="2023-06-23T17:13:08 IST" name="editproduct" finished-at="2023-06-23T17:13:11 IST" duration-ms="3608" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- return_store -->
-      </class> <!-- store_credits.ReturnListOfStoreCredits -->
+        </test-method> <!-- editproduct -->
+      </class> <!-- Products.EditProduct3821632270118121 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
